@@ -1,0 +1,264 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#Background {
+    width: 100vw;
+    height: 100vh;
+    filter: brightness(0.7);
+}
+
+a {
+    text-decoration: none;
+    color: #f34bd8;
+}
+
+#textStarting {
+    color: #fde500;
+}
+
+#Navbar {
+    position: fixed;
+    border: none;
+    top: 0;
+    background-color: white;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    width: 100vw;
+    height: 5vh;
+    z-index: 1000;
+    font-family: 'Lato';
+}
+
+#Logo {
+    font-size: 1.5vw;
+    position: relative;
+    left: 15%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: max-content;
+    height: max-content;
+    color: #f34bd8; 
+    
+    font-weight: 900;
+    font-style: italic;
+}
+
+#title {
+    color: white;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-style: italic;
+    white-space: nowrap;
+    font-size: 7vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#Subtitle {
+    color: rgb(255, 148, 241);
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-style: italic;
+    white-space: nowrap;
+    font-size: 2vw;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#Letter {
+    width: 100vw;
+    height: 165vh;
+    font-family: 'Playfair Display';
+}
+
+#Start {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 4vw;
+    position: relative;
+    top: 10%;
+    left: 20%;
+}
+
+#message {
+    width: 40vw;
+    text-align: justify;
+    font-size: 1vw;
+    position: relative;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+#Adonia {
+    display: inline;
+    color: #f34bd8;
+}
+
+#Nakul {
+    display: inline;
+    color: #fde500;
+}
+
+#endletter {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 4vw;
+    position: relative;
+    top: 20%;
+    left: 60%;
+}
+
+#Menu {
+    display: flex;
+    font-size: 1vw;
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    transform: translate(-0%,-50%);
+    color: #f34bd8; 
+    font-weight: 700;
+    width: 40vw;
+}
+
+#Active {
+    display: inline;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    background-color: #f34bd8;
+    color: white;
+    border-radius: 5px;
+}
+
+#LetterNav {
+    border: none;
+    display: inline;
+    position: relative;
+    left: 15%;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+
+    transition: all 0.5s ease;
+}
+
+#OurPics {
+    display: inline;
+    position: relative;
+    left: 25%;
+    padding-top: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+
+    transition: all 0.5s ease;
+}
+
+#LetterNav:hover {
+    border: none;
+    background-color: #fde500;
+    color: #f34bd8;
+    border-radius: 5px;
+}
+
+#OurPics:hover {
+    border: none;
+    background-color: #fde500;
+    color: #f34bd8;
+    border-radius: 5px;
+}
+
+#PictureGallery {
+    background-color: #fcd9ff;
+    width: 100vw;
+    height: 200vh;
+}
+
+.PictureContainer {
+    display: inline-block;
+    position: relative;
+    border-radius: 10px;
+    transform: translate(-15%,-5%);
+    width: 15vw;
+    height: 50vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 4vh;
+    padding-bottom: 3vh;
+    background-color: white;
+}
+
+#first {
+    top: 10%;
+    left: 10%;
+}
+
+#second {
+    top: 10%;
+    left: 22%;
+}
+
+#third {
+    top: 10%;
+    left: 35%;
+}
+
+#fourth {
+    top: 45%;
+    left: -48%;
+}
+
+#fifth {
+    top: 45%;
+    left: -36%;
+}
+
+#sixth {
+    top: 16.28%;
+    left: 73.8%;
+}
+
+#seventh {
+    top: 51%;
+    left: -9.3%;
+}
+
+#eighth {
+    top: 51%;
+    left: 2.6%;
+}
+
+#ninth {
+    top: 51%;
+    left: 15.5%;
+}
+
+
+#Picture {
+    border-radius: 10px;
+    width: 15vw;
+    height: 40vh;
+}
+
+.Caption {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 5%;
+    font-family: 'Playfair Display';
+
+}
